@@ -1,0 +1,36 @@
+{
+  "name": "food-ordering-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farukh7/Food-Ordering-Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farukh7/Food-Ordering-Application/issues"
+  },
+  "homepage": "https://github.com/Farukh7/Food-Ordering-Application#readme",
+  "dependencies": {
+    "@types/react": "^18.2.59",
+    "@types/react-dom": "^18.2.19",
+    "lint": "^0.8.19",
+    "parcel": "^2.11.0",
+    "reacr": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.3"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  }
+}
