@@ -11,6 +11,8 @@ const RestaurantMenu = () => {
 
   const resInfo = useRestaurantMenu(resId);
   console.log(resInfo);
+
+  const [showIndex, setShowIndex] = useState(null);
   
 
   // useEffect(() => {
@@ -49,7 +51,13 @@ const RestaurantMenu = () => {
 
       {/* categories acoordions */}
 
-      {categories.map((category) => <RestaurantCategory key = {category?.card?.card?.title}data = {category?.card?.card} /> )}
+      {categories.map((category, index) => (<RestaurantCategory key = {category?.card?.card?.title}data = {category?.card?.card}
+      showItems = {index === showIndex ? true : false}
+      setShowIndex = {() => setShowIndex(index)}
+      />
+      ))}
+
+      
 
 
 

@@ -25,7 +25,7 @@ const Body = () => {
     //Optioanl Chaining
     setListOfRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     setFilteredRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    console.log(data);
+    // console.log(data);
   };
 
 
